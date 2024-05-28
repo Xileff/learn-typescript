@@ -12,6 +12,7 @@ describe('Type Alias', () => {
       name: 'Samsung S24 Ultra',
       price: 25000000,
       category,
+      description: 'walawe, mahal betul o',
     };
 
     const product2: Product = {
