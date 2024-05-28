@@ -1,4 +1,4 @@
-import { Seller } from '../src/seller';
+import { Seller, StarSeller } from '../src/seller';
 
 describe('Interface', () => {
   it('should support interface', () => {
@@ -10,5 +10,15 @@ describe('Interface', () => {
     };
 
     console.info(seller);
+
+    const starSeller: StarSeller = {
+      id: 2,
+      name: 'Vincent',
+      address: 'Depok',
+      npwp: '54321',
+      expiryDate: '01-01-2025',
+    };
+
+    console.info(starSeller);
   });
 });

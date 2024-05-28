@@ -4,3 +4,7 @@ export interface Seller {
   address?: string;
   readonly npwp: string;
 }
+
+export interface StarSeller extends Seller {
+  expiryDate: string;
+}
